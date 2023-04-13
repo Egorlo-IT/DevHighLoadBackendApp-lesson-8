@@ -1,0 +1,27 @@
+.register {
+  .btn-register {
+    font-size: calc(1vmin + 8px);
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .register {
+    margin-top: 0;
+    .btn-register {
+      font-size: calc(1vmin + 12px);
+    }
+  }
+  .section-register {
+    background-color: transparent !important;
+    .card {
+      padding: 5px;
+    }
+  }
+  .register .img-fluid {
+    padding: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

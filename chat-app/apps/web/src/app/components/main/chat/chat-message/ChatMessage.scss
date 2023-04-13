@@ -1,0 +1,20 @@
+.chat-messages {
+  .messages-chat-block {
+    align-items: stretch !important;
+    padding: 15px;
+    border-radius: 0px 0px 6px 6px;
+    max-height: 75vh;
+    overflow-y: scroll;
+  }
+  .message-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .messsage-item {
+    background: #fff;
+    box-shadow: 0px 10px 55px rgba(0, 0, 0, 0.05),
+      0px 4px 10px rgba(0, 0, 0, 0.25), 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+  }
+}

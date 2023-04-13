@@ -1,0 +1,111 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&display=swap');
+
+:root {
+  --theme-light-bckg: #ffffff;
+  --theme-light-grey-color: #fafbff;
+  --theme-light-blue-bckg: #e6ecfe;
+  --theme-light-grey: #707c97;
+  --theme-light-red: #ff3366;
+  --theme-light-blue: #2a8bf2;
+  --theme-light-black: #0d1c2e;
+}
+
+#root {
+  height: 100vh;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  color: var(--theme-light-black);
+  background: var(--theme-light-blue-bckg);
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme-light-grey);
+}
+
+.ReactModal__Content h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #fff !important;
+}
+
+h1 {
+  font-size: calc(1vmin + 15px);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-v {
+  flex-direction: column;
+}
+
+.btn-blue {
+  background: linear-gradient(92.68deg, #7cb8f7 0%, #2a8bf2 100%);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: var(--bs-body-font-size);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15),
+    4px 4px 25px rgba(42, 139, 242, 0.05),
+    10px 6px 25px rgba(42, 139, 242, 0.15);
+}
+
+.btn-blue:hover {
+  color: yellow !important;
+  background-color: var(--bs-btn-hover-bg) !important;
+  border-color: var(--bs-btn-hover-border-color) !important;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 23px;
+  height: 23px;
+}
+::-webkit-scrollbar-thumb {
+  background: #73b3f7;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f3f3fb;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #73b3f7;
+}
+::-webkit-scrollbar-track {
+  background: #f3f3fb;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #73b3f7;
+}
+::-webkit-scrollbar-track:active {
+  background: #f3f3fb;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

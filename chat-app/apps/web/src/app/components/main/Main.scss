@@ -1,0 +1,13 @@
+.main {
+  margin: 25px auto;
+}
+
+@media (max-width: 1199px) {
+  .main {
+    padding: 5px;
+  }
+  .card-body {
+    padding: 0 !important;
+    margin-top: 10px;
+  }
+}
