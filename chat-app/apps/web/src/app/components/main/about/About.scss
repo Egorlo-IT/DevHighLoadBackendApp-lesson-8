@@ -1,0 +1,15 @@
+.about {
+  margin-top: 75px;
+  .title {
+    font-size: calc(1vmin + 18px);
+    line-height: 19px;
+    font-weight: 600;
+  }
+  .stack-tech {
+    color: var(--theme-light-red);
+  }
+
+  .stack-tech-name {
+    color: var(--theme-light-blue);
+  }
+}
